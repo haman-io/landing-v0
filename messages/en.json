@@ -1,0 +1,164 @@
+{
+  "app": {
+    "title": "Haman",
+    "tagLine": "Your Intelligent Learning Partner",
+    "description": "Haman is an AI-powered platform that provides a revolutionary interactive learning experience through a personalized agent trained to teach."
+  },
+  "nav": {
+    "home": "Haman",
+    "about": "About",
+    "students": "Students",
+    "instructors": "Instructors",
+    "benefits": "Benefits",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Experience Education Reimagined with AI.",
+    "subtitles": {
+      "students": "Students",
+      "instructors": "Instructors",
+      "schools": "Institutions"
+    },
+    "description": "Haman is an AI-powered platform that moves beyond static lessons to offer dynamic, interactive learning with a dedicated AI teaching agent.",
+    "cta": {
+      "students": "I am a Student",
+      "instructors": "I am an Instructor",
+      "schools": "I am an Administrator"
+    }
+  },
+  "about": {
+    "title": "The Future of Interactive Learning",
+    "subtitle": "About Haman",
+    "description": {
+      "p1": "Haman is pioneering a new era in education by replacing traditional, one-size-fits-all content with an intelligent, agentic AI designed to teach and interact dynamically.",
+      "p2": "Our platform empowers students with personalized, engaging learning journeys and provides instructors with the tools to train and deploy AI agents powered by their expertise, creating a truly adaptive and effective educational ecosystem."
+    }
+  },
+  "students": {
+    "title": "Your Personal AI Tutor",
+    "subtitle": "For Students",
+    "description": "Learn interactively with an AI agent that understands your needs, adapts to your pace, and makes learning an engaging conversation.",
+    "features": {
+      "interactive": {
+        "title": "Engage with an AI Agent",
+        "description": "Learn through natural conversation and dynamic interaction with a dedicated AI tutor."
+      },
+      "personalized": {
+        "title": "Customizable Learning",
+        "description": "Tailor your learning experience by adding trained data relevant to your specific interests and goals."
+      },
+      "practice": {
+        "title": "Active Learning & Feedback",
+        "description": "Receive immediate, intelligent feedback and reinforce your understanding through active engagement."
+      }
+    }
+  },
+  "instructors": {
+    "title": "Amplify Your Teaching with AI",
+    "subtitle": "For Instructors",
+    "description": "Train and leverage an AI agent to extend your reach, deliver personalized instruction at scale, and focus on inspiring your students.",
+    "features": {
+      "content": {
+        "title": "Train Your AI Agent",
+        "description": "Imbue the Haman AI with your unique knowledge and teaching methodologies to create a digital teaching assistant."
+      },
+      "tracking": {
+        "title": "Observe Student Interaction",
+        "description": "Gain insights into how students interact with the AI to understand common challenges and adapt your approach."
+      },
+      "tools": {
+        "title": "Create Dynamic Courses",
+        "description": "Develop interactive learning experiences that go far beyond traditional lessons and quizzes."
+      },
+      "management": {
+        "title": "Manage AI-Enhanced Classes",
+        "description": "Integrate AI-powered interaction seamlessly into your course structure."
+      },
+      "analytics": {
+        "title": "Understand Learning Patterns",
+        "description": "Access analytics on student engagement with the AI to inform your teaching strategies."
+      },
+      "support": {
+        "title": "Dedicated Support",
+        "description": "Receive support to help you maximize the potential of AI in your teaching."
+      }
+    }
+  },
+  "benefits": {
+    "title": "Intelligent Features for a Modern Learning Experience",
+    "subtitle": "Haman Benefits",
+    "description": "Leverage the power of AI to create, deliver, and experience truly personalized and interactive education.",
+    "l1": {
+      "title": "For Instructors",
+      "items": "5",
+      "i1": {
+        "title": "Expert AI Training",
+        "description": "Train the AI agent with your specialized knowledge and curriculum."
+      },
+      "i2": {
+        "title": "Scalable Personalization",
+        "description": "Provide personalized guidance to many students simultaneously through the AI."
+      },
+      "i3": {
+        "title": "Focus on Higher Learning",
+        "description": "Delegate foundational instruction to the AI and focus on critical thinking and complex topics."
+      },
+      "i4": {
+        "title": "Dynamic Content Creation",
+        "description": "Build interactive and adaptive learning modules powered by AI."
+      },
+      "i5": {
+        "title": "AI Interaction Analytics",
+        "description": "Analyze how students engage with the AI to refine content and identify areas for improvement."
+      }
+    },
+    "l2": {
+      "title": "For Students",
+      "items": "5",
+      "i1": {
+        "title": "Interactive AI Tutoring",
+        "description": "Engage in natural conversations with an AI agent that teaches and explains concepts."
+      },
+      "i2": {
+        "title": "Personalized Learning Journeys",
+        "description": "Follow a learning path that dynamically adapts to your questions and progress."
+      },
+      "i3": {
+        "title": "Access Diverse Knowledge",
+        "description": "Integrate various trained data sources to explore subjects in depth."
+      },
+      "i4": {
+        "title": "Instant Support & Clarification",
+        "description": "Get immediate answers to your questions whenever you need them."
+      },
+      "i5": {
+        "title": "Deeper Understanding",
+        "description": "Reinforce learning and achieve a deeper grasp through active, interactive exploration."
+      }
+    }
+  },
+  "ai": {
+    "title": "Meet Haman: Your AI Learning Agent",
+    "description": "Haman is more than just a chatbot; it's an intelligent agent trained to be your personal guide and tutor on your learning journey. Interact, ask questions, and explore concepts in a completely new way.",
+    "messages": {
+      "m1": {
+        "from": "AI",
+        "message": "Hello! I am Haman, your AI learning agent, trained and ready to explore new ideas with you. What are you curious about today?"
+      },
+      "m2": {
+        "from": "User",
+        "message": "Can you explain the concept of photosynthesis in a simple way?"
+      },
+      "m3": {
+        "from": "AI",
+        "message": "Absolutely! Think of photosynthesis as how plants make their food using sunlight, water, and air. Ready to dive into the details, or would you prefer a quick overview first?"
+      }
+    },
+    "placeholder": "Ask Haman anything..."
+  },
+  "footer": {
+    "rights": "© 2025 Haman. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

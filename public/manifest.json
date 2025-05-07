@@ -1,0 +1,21 @@
+{
+  "name": "Haman - Your Intelligent Learning Partner",
+  "short_name": "Haman",
+  "description": "Haman is an AI-powered platform that provides a revolutionary interactive learning experience through a personalized agent trained to teach.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

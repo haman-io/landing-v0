@@ -1,0 +1,220 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@config "../tailwind.config.ts";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth
+}
+
+@layer base {
+  body {
+    @apply font-[family-name:var(--font-local)] text-base;
+  }
+}
+
+.h1 {
+  @apply font-extrabold text-[2.5rem] leading-[3rem] sm:text-[3.5rem] sm:leading-[4.75rem] md:text-[3.75rem] md:leading-[5.5rem] lg:text-[4.25rem] lg:leading-[5.75rem] xl:text-[4.5rem] xl:leading-[6rem];
+}
+
+.h2 {
+  @apply font-bold text-[2rem] leading-[3.75rem] sm:text-[3rem] sm:leading-[5.25rem] md:text-[3rem] md:leading-[5.25rem] lg:text-[3rem] lg:leading-[5.25rem] xl:text-[3rem] xl:leading-[5.25rem];
+}
+
+.rotate {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg]
+}
+
+.rotate-90 {
+  @apply rotate-[90deg]
+}
+
+.rotate-135 {
+  @apply rotate-[135deg]
+}
+
+.rotate-180 {
+  @apply rotate-[180deg]
+}
+
+.rotate-225 {
+  @apply rotate-[225deg]
+}
+
+.rotate-270 {
+  @apply rotate-[270deg]
+}
+
+.rotate-315 {
+  @apply rotate-[315deg]
+}
+
+.rotate-360 {
+  @apply rotate-[360deg]
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg]
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg]
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg]
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg]
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg]
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg]
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg]
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg]
+}
+
+
+
+
+:root {
+  --primary: oklch(100% 0.01 296.81);
+  --background: oklch(93.88% 0.033 300.19);
+  --secondary-background: oklch(100% 0 0);
+  --foreground: oklch(0% 0 0);
+  --main-foreground: oklch(0% 0 0);
+  --main: oklch(70.28% 0.1753 295.36);
+  --border: oklch(0% 0 0);
+  --ring: oklch(0% 0 0);
+  --overlay: oklch(0% 0 0 / 0.8);
+  --shadow: 5px 5px 0px 0px var(--border);
+  --neoblue: 204 70% 53%;
+  --neopink: 300 100% 50%;
+  --neoviolet: 265, 67%, 57%;
+  --neoyellow: 50 100% 68%;
+  --neogreen: 132 60% 52%;
+  --neored: 0 100% 66%;
+  --neo-hover: 7px 7px 0px 0px var(--border);
+}
+
+.dark {
+  --primary: oklch(0% 0 0);
+  --background: oklch(30.14% 0.0826 296.5);
+  --secondary-background: oklch(23.93% 0 0);
+  --foreground: oklch(92.49% 0 0);
+  --main-foreground: oklch(0% 0 0);
+  --main: oklch(70.28% 0.1753 295.36);
+  --border: oklch(30% 0 0);
+  --ring: oklch(100% 0 0);
+  /* --shadow: 5px 5px 0px 0px var(--ring); */
+  /* --neo-hover: 7px 7px 0px 0px var(--border); */
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-main: var(--main);
+  --color-background: var(--background);
+  --color-secondary-background: var(--secondary-background);
+  --color-foreground: var(--foreground);
+  --color-main-foreground: var(--main-foreground);
+  --color-border: var(--border);
+  --color-overlay: var(--overlay);
+  --color-ring: var(--ring);
+
+  --color-neoblue: hsl(var(--neoblue));
+  --color-neopink: hsl(var(--neopink));
+  --color-neoviolet: hsl(var(--neoviolet));
+  --color-neoyellow: hsl(var(--neoyellow));
+  --color-neogreen: hsl(var(--neogreen));
+  --color-neored: hsl(var(--neored));
+
+  --spacing-boxShadowX: 5px;
+  --spacing-boxShadowY: 5px;
+  --spacing-reverseBoxShadowX: -5px;
+  --spacing-reverseBoxShadowY: -5px;
+  --radius-base: 0;
+  --shadow-shadow: var(--shadow);
+  --shadow-neo-hover: var(--neo-hover);
+  --font-weight-base: 500;
+  --font-weight-heading: 700;
+}
+
+.neo-btn {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: var(--color-neoviolet);
+  border-width: 4px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: var(--border);
+  box-shadow: var(--shadow-shadow);
+  border-radius: var(--radius-base);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .2s;
+  animation-duration: .2s;
+}
+
+.neo-btn:hover {
+  box-shadow: var(--shadow-neo-hover);
+}
+
+.neo-btn:hover {
+  top: -3px;
+  left: -3px;
+}
+
+.hover-underline-animation {
+  position: relative;
+  text-decoration: none;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -4px;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.15s ease-out;
+  transform: scaleX(0);
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
